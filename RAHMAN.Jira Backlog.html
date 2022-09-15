@@ -1,0 +1,603 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="7">
+            <img src="https://pdmbootcampspot.atlassian.net/images/icon-jira-software-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="7">
+            <a href="https://pdmbootcampspot.atlassian.net/issues/?jql=project+%3D+WC4Z+AND+issuetype+in+%28Epic%2C+Story%29+ORDER+BY+issuetype+ASC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="7">
+            Displaying <strong>22</strong> issues at <strong>05/Sep/22 2:47 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-description" data-id="description">
+                                                        Description
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow34094" rel="34094" data-issuekey="WC4Z-17" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-17" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-17">WC4Z-17</a>
+</td>
+                                            <td class="summary"><p>
+                Direct to travel booking site
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:27 PM </td>
+                                            <td class="description">      As a budget traveler, I want to be able to see the aggregate information of the deal I am viewing, so I know exactly what my money is getting me and how I can customize the package to suit my needs before booking.<br/>
+<br/>
+ 
+  </td>
+                                            <td class="issuetype">    Epic
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34092" rel="34092" data-issuekey="WC4Z-15" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-15" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-15">WC4Z-15</a>
+</td>
+                                            <td class="summary"><p>
+                Filter deals
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:24 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to filter travel deals by specific categories so that I can see deals only related to the specific things that interest me.
+  </td>
+                                            <td class="issuetype">    Epic
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34090" rel="34090" data-issuekey="WC4Z-13" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-13" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-13">WC4Z-13</a>
+</td>
+                                            <td class="summary"><p>
+                View travel tips and latest deals
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:20 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to view travel tips and latest deals so that I can make an informed decision about my travel plans before purchasing a package.
+  </td>
+                                            <td class="issuetype">    Epic
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34088" rel="34088" data-issuekey="WC4Z-11" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-11" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-11">WC4Z-11</a>
+</td>
+                                            <td class="summary"><p>
+                Search travel deals
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:12 PM </td>
+                                            <td class="description">      As a budget traveler, I want to be able to search travel deals based on certain criteria, so that I can see the most customized options to suit my needs.
+  </td>
+                                            <td class="issuetype">    Epic
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34085" rel="34085" data-issuekey="WC4Z-8" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-8" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-8">WC4Z-8</a>
+</td>
+                                            <td class="summary"><p>
+                Explore travel deals by category 
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 12:23 PM </td>
+                                            <td class="description">      As a frequent budget traveler, I want to be able to explore travel deals by category so that I can choose the best options for location, benefits, and price.
+  </td>
+                                            <td class="issuetype">    Epic
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34120" rel="34120" data-issuekey="WC4Z-29" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-29" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-29">WC4Z-29</a>
+</td>
+                                            <td class="summary"><p>
+                Deal description
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 2:28 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to see the aggregate information of the deal I am viewing, so I know exactly what’s included and what to expect in terms of price and location before booking.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34119" rel="34119" data-issuekey="WC4Z-28" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-28" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-28">WC4Z-28</a>
+</td>
+                                            <td class="summary"><p>
+                View Upgrades
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 2:28 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to see the upgrades available for the travel deal I am viewing, so I know exactly what options there are to customize the package to suit my desires.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34118" rel="34118" data-issuekey="WC4Z-27" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-27" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-27">WC4Z-27</a>
+</td>
+                                            <td class="summary"><p>
+                View savings
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 2:28 PM </td>
+                                            <td class="description">      As a budget traveler, I want to be able to see the total price savings when booking through this specific booking site so that I can understand the value of the deal.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34103" rel="34103" data-issuekey="WC4Z-26" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-26" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-26">WC4Z-26</a>
+</td>
+                                            <td class="summary"><p>
+                Filter deals by Cruises
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 2:18 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to filter travel deals by cruises so that I can see only cruise package deals.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34102" rel="34102" data-issuekey="WC4Z-25" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-25" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-25">WC4Z-25</a>
+</td>
+                                            <td class="summary"><p>
+                Filter deals by Most Recent
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 2:17 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to filter travel deals to most recent so that I can view the most recently added deals by Travel Zoo and can stay up to date on my search.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34101" rel="34101" data-issuekey="WC4Z-24" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-24" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-24">WC4Z-24</a>
+</td>
+                                            <td class="summary"><p>
+                See options to save $$$ on flights
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 2:09 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to view cost efficient flight options so that I can save money on airfare to my travel destination.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34100" rel="34100" data-issuekey="WC4Z-23" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-23" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-23">WC4Z-23</a>
+</td>
+                                            <td class="summary"><p>
+                View Featured Destinations
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 2:09 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to explore featured destinations so that I get inspiration for where to travel if I am not sure yet.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34099" rel="34099" data-issuekey="WC4Z-22" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-22" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-22">WC4Z-22</a>
+</td>
+                                            <td class="summary"><p>
+                Search deals by # of guests
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:50 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to search travel deals based on the number of travelers in my party, so that I can see what offers are available for a certain # of guests.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34098" rel="34098" data-issuekey="WC4Z-21" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-21" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-21">WC4Z-21</a>
+</td>
+                                            <td class="summary"><p>
+                Search deals by travel dates
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:44 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to search travel deals based on the dates I choose, so that I can pick one that meets the time frame I can take off work.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34097" rel="34097" data-issuekey="WC4Z-20" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-20" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-20">WC4Z-20</a>
+</td>
+                                            <td class="summary"><p>
+                Search deals by Location
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:41 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to search travel deals based on location, so that I can see deals only in the location I choose.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34096" rel="34096" data-issuekey="WC4Z-19" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-19" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-19">WC4Z-19</a>
+</td>
+                                            <td class="summary"><p>
+                Categorize search by viewing Last Minute Deals only
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:32 PM </td>
+                                            <td class="description">      As an infrequent traveler with no set vacation times throughout the year, I want to be able to explore last minute deals so that I can book a cost effective, fulfilling vacation closer to my travel dates.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34095" rel="34095" data-issuekey="WC4Z-18" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-18" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-18">WC4Z-18</a>
+</td>
+                                            <td class="summary"><p>
+                Categorize search by viewing Top 20 deals only
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:29 PM </td>
+                                            <td class="description">      As a budget traveler, I want to be able to explore travel deals by top 20 so that I can choose the best options for location, benefits, and price.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34093" rel="34093" data-issuekey="WC4Z-16" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-16" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-16">WC4Z-16</a>
+</td>
+                                            <td class="summary"><p>
+                Show photos
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:26 PM </td>
+                                            <td class="description">      As a budget traveler, I want to be able to see the photos of the travel package I am considering so that I can have a visual of my expected experience before booking.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34091" rel="34091" data-issuekey="WC4Z-14" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-14" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-14">WC4Z-14</a>
+</td>
+                                            <td class="summary"><p>
+                Filter deals by Hotel
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:21 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to filter travel deals by hotel package options so that I can further narrow my search to all inclusive hotel offerings.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34089" rel="34089" data-issuekey="WC4Z-12" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-12" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-12">WC4Z-12</a>
+</td>
+                                            <td class="summary"><p>
+                View Blog Posts
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:17 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to view blog posts with the latest travel tips and deals so that I can make more informed decisions about my travel plans before booking.
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34087" rel="34087" data-issuekey="WC4Z-10" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-10" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-10">WC4Z-10</a>
+</td>
+                                            <td class="summary"><p>
+                Search deals by Destination
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 1:10 PM </td>
+                                            <td class="description">      As a traveler, I want to be able to search travel deals by destination so that I can choose a package that fits what I am looking for. ex. restaurants, shows, things to do…
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+
+
+                <tr id="issuerow34086" rel="34086" data-issuekey="WC4Z-9" class="issuerow">
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="WC4Z-9" href="https://pdmbootcampspot.atlassian.net/browse/WC4Z-9">WC4Z-9</a>
+</td>
+                                            <td class="summary"><p>
+                 Categorize search by viewing Trending Deals only
+    </p>
+</td>
+                                            <td class="reporter">            Zara Rahman
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-blue-gray jira-issue-status-lozenge-new aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;To Do&lt;/span&gt;">To Do</span>    </td>
+                                            <td class="created"> 05/Sep/22 12:32 PM </td>
+                                            <td class="description">      As a frequent budget traveler, I want to be able to explore the travel deals that are trending so that I can see which deals are the most popular determined by customers. 
+  </td>
+                                            <td class="issuetype">    Story
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="7"><font size="1">
+        Generated at Mon Sep 05 19:47:53 UTC 2022 by Zara Rahman using Jira 1001.0.0-SNAPSHOT#100206-sha1:3fcec87e1489dbd5ba19c781935acefd577fcd94.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
